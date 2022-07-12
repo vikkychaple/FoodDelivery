@@ -1,0 +1,25 @@
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.active-link
+{
+    font-weight: bold;
+    color: green;
+    text-decoration: none;
+}
+.logo
+{
+     
+        color: #ff7200;
+        font-size: 35px;
+        font-family: Arial;
+        padding-left: 20px;
+        float: left;
+        padding-top: 10px;
+        font-weight: bold;
+    
+}
