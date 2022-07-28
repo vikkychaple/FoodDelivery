@@ -12,8 +12,17 @@
           <li class="nav-item">
             <a class="nav-link" routerLink="menu" routerLinkActive="active-link">Menu</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="login" routerLinkActive="active-link">Login</a>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" routerLink="" routerLinkActive="active-link" data-bs-toggle="dropdown" aria-expanded="false">
+              Login
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" routerLink="admin-login" routerLinkActive="active-link-1">Admin</a></li>
+              <li><a class="dropdown-item" href="resto-login" routerLinkActive="active-link-1">Restaurant</a></li>
+              
+              <li><a class="dropdown-item" routerLink="login" routerLinkActive="active-link-1">User</a></li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" routerLink="registration" routerLinkActive="active-link">Registration</a>

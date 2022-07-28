@@ -13,6 +13,12 @@ import { MenupageComponent } from './pages/menupage/menupage.component';
 import { FeedbackComponent } from './pages/feedback/feedback.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegistrationComponent } from './pages/registration/registration.component';
+import { RestoLoginComponent } from './pages/resto-login/resto-login.component';
+import { AdminLoginComponent } from './pages/admin-login/admin-login.component';
+import { RestaRegisterComponent } from './pages/resta-register/resta-register.component';
+import { AdminComponent } from './pages/admin/admin.component';
+
+
 
 @NgModule({
   declarations: [
@@ -26,7 +32,11 @@ import { RegistrationComponent } from './pages/registration/registration.compone
     MenupageComponent,
     FeedbackComponent,
     LoginComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    RestoLoginComponent,
+    AdminLoginComponent,
+    RestaRegisterComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
